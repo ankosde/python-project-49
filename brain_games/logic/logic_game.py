@@ -14,7 +14,7 @@ def running_game(game):
        question, true_answer = game.get_results()
        print(f'Question: {question}')
        answer = prompt.string('Your answer: ')
-       print(answer) 
+       print(answer)
        if answer == true_answer:
           print('Correct!')
           count +=1
@@ -22,4 +22,5 @@ def running_game(game):
           print(f'{answer} is wrong answer ;(. Correct answer was {true_answer}.')
           print(f'''Let's try again, {name}!''')
           count = 0
+          break
     print(final)
