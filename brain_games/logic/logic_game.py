@@ -20,6 +20,5 @@ def running_game(game):
             print(f"{answer} is wrong answer ;(. Correct answer"
                   f"was {true_answer}. \nLet's try again, {name}!")
             count = 0
-            break
     print(final)
 
