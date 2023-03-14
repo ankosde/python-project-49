@@ -15,4 +15,3 @@ def condition_check(question):
         return True
     else:
         return False
-

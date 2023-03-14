@@ -21,4 +21,3 @@ def condition_check(min_num, max_num, random_step):
     for i in range(min_num, max_num, random_step):
         subsequence.append(i)
     return subsequence
-

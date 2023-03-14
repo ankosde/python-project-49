@@ -23,4 +23,3 @@ def condition_check(random_number, random_number1, operazia):
     elif operazia == '*':
         rezult = random_number * random_number1
     return rezult
-

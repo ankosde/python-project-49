@@ -23,4 +23,3 @@ def running_game(game):
             break
     else:
         print(final)
-

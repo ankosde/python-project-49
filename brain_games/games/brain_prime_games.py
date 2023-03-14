@@ -17,4 +17,3 @@ def condition_check(question):
             count += 1
     if count == 0:
         return True
-
