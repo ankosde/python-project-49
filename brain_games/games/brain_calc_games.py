@@ -1,9 +1,9 @@
-import prompt
 from random import randint
 from random import choice
 
 
 TASK = 'What is the result of the expression?'
+
 
 def get_results():
     random_number = randint(20, 40)
@@ -14,6 +14,7 @@ def get_results():
     question = f'{random_number} {operazia} {random_number1}'
     return question, str(true_answer)
 
+
 def condition_check(random_number, random_number1, operazia):
     if operazia == '-':
        rezult = random_number - random_number1
@@ -22,3 +23,4 @@ def condition_check(random_number, random_number1, operazia):
     elif operazia == '*':
        rezult = random_number * random_number1
     return rezult
+

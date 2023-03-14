@@ -1,4 +1,3 @@
-import prompt
 import random
 
 
@@ -15,8 +14,10 @@ def get_results():
     question = ' '.join(map(str, subsequence[0:11]))
     return question, true_answer
 
+
 def condition_check(min_num, max_num, random_step):
     subsequence = []
     for i in range(min_num, max_num, random_step):
        subsequence.append(i)
     return subsequence
+
