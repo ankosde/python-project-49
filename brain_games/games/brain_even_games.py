@@ -12,7 +12,7 @@ def get_results():
 
 def condition_check(question):
     if question % 2 == 0:
-       return True
+        return True
     else:
-       return False
+        return False
 

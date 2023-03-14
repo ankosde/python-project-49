@@ -16,7 +16,6 @@ def get_results():
 def condition_check(random_number, random_number1, min_num):
     count = 0
     for i in range(1, min_num + 1):
-       if random_number % i == 0 and random_number1 % i == 0:
-          count = i
+        if random_number % i == 0 and random_number1 % i == 0:
+            count = i
     return count
-

@@ -13,8 +13,8 @@ def get_results():
 def condition_check(question):
     count = 0
     for i in range(2, question // 2):
-       if question % i == 0:
-          count += 1
+        if question % i == 0:
+            count += 1
     if count == 0:
-       return True
+        return True
 

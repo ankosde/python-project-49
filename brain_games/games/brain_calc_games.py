@@ -17,10 +17,10 @@ def get_results():
 
 def condition_check(random_number, random_number1, operazia):
     if operazia == '-':
-       rezult = random_number - random_number1
+        rezult = random_number - random_number1
     elif operazia == '+':
-       rezult = random_number + random_number1
+        rezult = random_number + random_number1
     elif operazia == '*':
-       rezult = random_number * random_number1
+        rezult = random_number * random_number1
     return rezult
 

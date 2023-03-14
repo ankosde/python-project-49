@@ -3,6 +3,7 @@ import random
 
 TASK = 'What number is missing in the progression?'
 
+
 def get_results():
     min_num = random.randint(1, 8)
     max_num = random.randint(45, 57)
@@ -18,6 +19,6 @@ def get_results():
 def condition_check(min_num, max_num, random_step):
     subsequence = []
     for i in range(min_num, max_num, random_step):
-       subsequence.append(i)
+        subsequence.append(i)
     return subsequence
 
