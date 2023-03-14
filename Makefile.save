@@ -1,4 +1,0 @@
-install:
-	po
-poetry run brain-games: 
-
