@@ -6,10 +6,15 @@ brain-even:
 
 brain-calc:
 	poetry run brain-calc
+
 brain-gcd:
 	poetry run brain-gcd
+
 brain-prog:
 	poetry run brain-prog
+
+brain-prime:
+	poetry run brain-prime
 
 build:
 	poetry publish --dry-run
